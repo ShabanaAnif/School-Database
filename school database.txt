@@ -1,0 +1,32 @@
+create database school
+create table Student(
+student_id int primary key,
+student_name varchar(50),
+student_class varchar(20))
+select*from student
+insert into student values(1,'shila','BE')
+insert into student values(2,'lila','B.Tech')
+insert into student values(3,'sofia','B.SC')
+insert into student values(4,'fipa','B.COM')
+insert into student values(5,'jilia','B.ED')
+select*from student
+create table Subjects(
+subject_id int primary key,
+subject_name varchar(50) not null)
+select*from subjects
+insert into subjects values(01,'tamil')
+insert into subjects values(02,'english')
+insert into subjects values(03,'maths')
+insert  into subjects values(04,'physics')
+insert into subjects values(05,'chemistry')
+select*from subjects
+create table Classes(
+class_id int primary key,
+class_name varchar(50) not null)
+select*from classes
+insert into classes values(001,'firstclass')
+insert into classes values(002,'secondclass')
+insert into classes values(003,'thirdclass')
+insert into classes values(004,'fourthclass')
+insert into classes values(005,'fifthclass')
+select*from classes
